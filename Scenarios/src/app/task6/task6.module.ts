@@ -9,6 +9,6 @@ import { Comp63Component } from './comp63/comp63.component';
   imports: [
     CommonModule
   ],
-  exports: [Comp61Component, Comp62Component, Comp63Component]
+  exports: [Comp61Component, Comp62Component, Comp63Component],
 })
 export class Task6Module { }

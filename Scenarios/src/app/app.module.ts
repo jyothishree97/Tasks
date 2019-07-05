@@ -9,6 +9,8 @@ import { Task3Module } from './task3/task3.module';
 import { Task4Module } from './task4/task4.module';
 import { Task5Module } from './task5/task5.module';
 import { Task6Module } from './task6/task6.module';
+import { Task7Module } from './task7/task7.module';
+import { ServiceService } from './service.service';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,11 @@ import { Task6Module } from './task6/task6.module';
     Task3Module,
     Task4Module,
     Task5Module,
-    Task6Module
+    Task6Module,
+    Task7Module,
+
   ],
-  providers: [],
+  providers: [ServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
